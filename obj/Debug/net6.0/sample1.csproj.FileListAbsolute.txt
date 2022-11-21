@@ -28,3 +28,11 @@ C:/Users/vaing/Desktop/rrestaurant/claude_monet_restuarant/obj/Debug/net6.0/refi
 C:/Users/vaing/Desktop/rrestaurant/claude_monet_restuarant/obj/Debug/net6.0/sample1.pdb
 C:/Users/vaing/Desktop/rrestaurant/claude_monet_restuarant/obj/Debug/net6.0/sample1.genruntimeconfig.cache
 C:/Users/vaing/Desktop/rrestaurant/claude_monet_restuarant/obj/Debug/net6.0/ref/sample1.dll
+C:\Users\vaing\Desktop\rrestaurant\claude_monet_restuarant\obj\Debug\net6.0\sample1.csproj.AssemblyReference.cache
+C:\Users\vaing\Desktop\rrestaurant\claude_monet_restuarant\obj\Debug\net6.0\sample1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaing\Desktop\rrestaurant\claude_monet_restuarant\obj\Debug\net6.0\sample1.AssemblyInfoInputs.cache
+C:\Users\vaing\Desktop\rrestaurant\claude_monet_restuarant\obj\Debug\net6.0\sample1.AssemblyInfo.cs
+C:\Users\vaing\Desktop\rrestaurant\claude_monet_restuarant\obj\Debug\net6.0\sample1.csproj.CoreCompileInputs.cache
+C:\Users\vaing\Desktop\rrestaurant\claude_monet_restuarant\obj\Debug\net6.0\sample1.dll
+C:\Users\vaing\Desktop\rrestaurant\claude_monet_restuarant\obj\Debug\net6.0\refint\sample1.dll
+C:\Users\vaing\Desktop\rrestaurant\claude_monet_restuarant\obj\Debug\net6.0\sample1.pdb

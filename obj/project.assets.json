@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/ilfi/.nuget/packages/": {}
+    "C:\\Users\\vaing\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ilfi/Study/dotnet/sample1/sample1.csproj",
+      "projectUniqueName": "C:\\Users\\vaing\\Desktop\\rrestaurant\\claude_monet_restuarant\\sample1.csproj",
       "projectName": "sample1",
-      "projectPath": "/home/ilfi/Study/dotnet/sample1/sample1.csproj",
-      "packagesPath": "/home/ilfi/.nuget/packages/",
-      "outputPath": "/home/ilfi/Study/dotnet/sample1/obj/",
+      "projectPath": "C:\\Users\\vaing\\Desktop\\rrestaurant\\claude_monet_restuarant\\sample1.csproj",
+      "packagesPath": "C:\\Users\\vaing\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vaing\\Desktop\\rrestaurant\\claude_monet_restuarant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ilfi/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vaing\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -54,12 +54,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
