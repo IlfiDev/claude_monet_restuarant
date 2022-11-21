@@ -1,7 +1,25 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-var name = Console.ReadLine();
-var currentDate = DateTime.Now;
-Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!");
-Console.Write($"{Environment.NewLine}Press any key to exit...");
-Console.ReadKey(true);
+﻿class Visitor{
+
+}
+
+class Table{
+
+}
+
+class Waiter{ // Радынов
+
+}
+
+class Ainura{ // Оганес
+
+}
+
+class kitchener{ // Илюха
+
+}
+
+enum TABLE_STATE{
+    CLEAR, // Стол вободен
+    BUSSY, // Стол занят
+    DYRTY  // Стол требует уборки
+}
