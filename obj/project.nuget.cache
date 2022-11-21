@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RWkt1A1qwnUkQozkuYIi3BdpJ5RdNROS92seAi7oruo/nT5q2aDdhWdqNNu50D6X1ZLCpAt+UnzAP2v1ALtmYw==",
+  "dgSpecHash": "kc/eB7G3Ma7CgF03OgYLJ0DSaqmNIPsbWdR/9gYJfSeLTUcbnACgR+zQMGKNtXQSRk55m3/7z4AVrnv+LAk3ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vaing\\Desktop\\rrestaurant\\claude_monet_restuarant\\sample1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\vaing\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\vaing\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\vaing\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\vaing\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/ilfi/Study/dotnet/sample1/sample1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
