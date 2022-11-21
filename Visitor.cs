@@ -63,4 +63,8 @@ class Visitor {
         return order;
     }
 
+    public void GiveOrder(string order) {
+        
+    }
+
 }
