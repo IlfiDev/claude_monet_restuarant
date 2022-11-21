@@ -2,8 +2,8 @@ using System.Collections.Generic;
 
 class OrderQueue{
 
-    public List<string> Orders;
-    public List<string> PreparedOrders;
+    public List<string> Orders = new List<string>();
+    public List<string> PreparedOrders = new List<string>();
     
 
     public void AddOrder(string order){
