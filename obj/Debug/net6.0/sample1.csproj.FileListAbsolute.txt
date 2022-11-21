@@ -1,0 +1,15 @@
+/home/ilfi/Study/dotnet/sample1/bin/Debug/net6.0/sample1
+/home/ilfi/Study/dotnet/sample1/bin/Debug/net6.0/sample1.deps.json
+/home/ilfi/Study/dotnet/sample1/bin/Debug/net6.0/sample1.runtimeconfig.json
+/home/ilfi/Study/dotnet/sample1/bin/Debug/net6.0/sample1.dll
+/home/ilfi/Study/dotnet/sample1/bin/Debug/net6.0/sample1.pdb
+/home/ilfi/Study/dotnet/sample1/obj/Debug/net6.0/sample1.csproj.AssemblyReference.cache
+/home/ilfi/Study/dotnet/sample1/obj/Debug/net6.0/sample1.GeneratedMSBuildEditorConfig.editorconfig
+/home/ilfi/Study/dotnet/sample1/obj/Debug/net6.0/sample1.AssemblyInfoInputs.cache
+/home/ilfi/Study/dotnet/sample1/obj/Debug/net6.0/sample1.AssemblyInfo.cs
+/home/ilfi/Study/dotnet/sample1/obj/Debug/net6.0/sample1.csproj.CoreCompileInputs.cache
+/home/ilfi/Study/dotnet/sample1/obj/Debug/net6.0/sample1.dll
+/home/ilfi/Study/dotnet/sample1/obj/Debug/net6.0/refint/sample1.dll
+/home/ilfi/Study/dotnet/sample1/obj/Debug/net6.0/sample1.pdb
+/home/ilfi/Study/dotnet/sample1/obj/Debug/net6.0/sample1.genruntimeconfig.cache
+/home/ilfi/Study/dotnet/sample1/obj/Debug/net6.0/ref/sample1.dll
