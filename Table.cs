@@ -1,7 +1,9 @@
-class Table{ 
-    List <string> Table = new List <string>() { "DirtyTable", "FreeTable", "BusyTable"};
-    if(visitor.Count > 0) {
-        
+class Table{
+    private Visitor status;
+    public void SetVisitor(Visitor visitor){
+        status = visitor;
     }
-
+    public Visitor GetVisitor(){
+        return status;
+    }
 }
