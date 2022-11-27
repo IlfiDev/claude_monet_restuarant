@@ -1,3 +1,4 @@
+using System.Diagnostics.Contracts;
 class Cook{
 
     private OrderQueue _queue;
@@ -9,9 +10,8 @@ class Cook{
     }
 
     public void GetOrder(string order){
-        if(_order != ""){
-            _order = _queue.GetOrder();
-        }
+        Contract.Ensures(order != "");
+        _order = _queue.GetOrder();
     }
 
     private void cook(){

@@ -1,3 +1,6 @@
+using System.Diagnostics.Contracts;
+using System.Collections.Generic;
+
 class Visitor {
 
     List<Table> FreeTables;
@@ -5,6 +8,7 @@ class Visitor {
     List<Table> ReadyToOrder;
     List<Table> ReadyToLeave;
     private String order = "";
+    
 
     Visitor(List<Table> freeTables, List<Table> busyTabels, List<Table> readyToOrder, List<Table> readyToLeave) {
         FreeTables = freeTables;
@@ -27,11 +31,11 @@ class Visitor {
     async private void tryToDetAnotherPlace() {
         await Task.Delay(5000);
 
-        if(freeTables.Count > 0) {
-            Table table = freeTables[0];
-            freeTables.Remove(table);
+        if(FreeTables.Count > 0) {
+            Table table = FreeTables[0];
+            FreeTables.Remove(table);
 
-            busyTabels.Add(table);
+            BusyTabels.Add(table);
 
         } else {
             Task.Run(tryToDetAnotherPlace);
