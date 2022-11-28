@@ -10,7 +10,7 @@ class Visitor {
     private String order = "";
     
 
-    Visitor(List<Table> freeTables, List<Table> busyTabels, List<Table> readyToOrder, List<Table> readyToLeave) {
+    public Visitor(List<Table> freeTables, List<Table> busyTabels, List<Table> readyToOrder, List<Table> readyToLeave) {
         FreeTables = freeTables;
         BusyTabels = busyTabels;
         ReadyToOrder = readyToOrder;

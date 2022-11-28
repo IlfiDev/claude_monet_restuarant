@@ -10,13 +10,13 @@ class Ainura{
         _tables = dirtyTables;
         _cleanTables = cleanTables;
     }
-    private void CheckTables(){
+    public void CheckTables(){
         while (_tables.Count > 0)
         {
             CleanUp();
         }
     }
-    public void CleanUp()
+    private void CleanUp()
     {
         Contract.Requires(_tables.Count > 0);
         Table temp = _tables[0];
