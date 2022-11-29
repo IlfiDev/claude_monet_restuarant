@@ -7,6 +7,7 @@ class Table{
         status = visitor;
     }
     public Visitor GetVisitor(){
+        Contract.Ensures(status != null);
         return status;
     }
 }

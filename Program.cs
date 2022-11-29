@@ -3,7 +3,7 @@
 class Restuarant{
     
 
-    static void Main(string[] args)
+    static async void Main(string[] args)
     {
         List<Table> emptyTables = new List<Table>();
         List<Table> occupiedTables = new List<Table>();
@@ -11,7 +11,7 @@ class Restuarant{
         List<Table> someTables = new List<Table>();
         OrderQueue orderQueue= new OrderQueue();
         Waiter waiter = new Waiter(occupiedTables, orderQueue);
-
+        Cook cook = new Cook(orderQueue);
         for (int i = 0; i < 10; i++){
             emptyTables.Add(new Table());
         }
@@ -20,6 +20,7 @@ class Restuarant{
         while(true){
             Visitor visitor = new Visitor(emptyTables, occupiedTables, dirtyTables, someTables);
             waiter.TakeOrder();
+            cook.GetOrder();
             waiter.GiveOrder();
             ainura.CheckTables();
         }

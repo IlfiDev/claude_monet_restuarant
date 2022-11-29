@@ -18,6 +18,7 @@ class Ainura{
     }
     private void CleanUp()
     {
+        Thread.Sleep(50);
         Contract.Requires(_tables.Count > 0);
         Table temp = _tables[0];
         _cleanTables.Add(temp);

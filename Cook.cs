@@ -9,12 +9,14 @@ class Cook{
         _queue = queue;
     }
 
-    public void GetOrder(string order){
-        Contract.Ensures(order != "");
+    public void GetOrder(){
         _order = _queue.GetOrder();
     }
 
-    private void cook(){
+    private void CookFood(){
+        Contract.Requires(_order != "");
+        GetOrder();
+
         Thread.Sleep(300);
 
         _preparedOrder = _order;

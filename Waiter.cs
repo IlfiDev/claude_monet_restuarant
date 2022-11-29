@@ -4,6 +4,7 @@ class Waiter{
     public OrderQueue orders;
     public List<Table> readyToOrderTable;
     public string order;
+
     public Waiter(List<Table> tables, OrderQueue _orders)
     {
         readyToOrderTable = tables;

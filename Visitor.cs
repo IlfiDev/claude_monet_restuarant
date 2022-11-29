@@ -64,11 +64,13 @@ class Visitor {
     }
 
     public String GetOrder() {
+        Contract.Ensures(order != null);
         return order;
     }
 
     public void GiveOrder(string order) {
-        
+        Thread.Sleep(50);
+        ReadyToLeaveRestuarant();
     }
 
 }
